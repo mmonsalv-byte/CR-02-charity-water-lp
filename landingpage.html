@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Charity: Water Landing Page</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    /* Top navigation */
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 30px;
+      background: white;
+    }
+
+    .navbar img {
+      height: 28px;
+    }
+
+    .navbar button {
+      background: #fcd307;
+      border: none;
+      padding: 8px 18px;
+      border-radius: 4px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    /* Hero section */
+    .hero {
+      position: relative;
+      text-align: center;
+      color: white;
+    }
+
+    .hero img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .hero-content {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      max-width: 900px;
+      padding: 20px;
+    }
+
+    .hero h1 {
+      font-size: 2.8rem;
+      font-weight: bold;
+      margin-bottom: 10px;
+      color: #fff;
+    }
+
+    .hero h1 span {
+      color: #000;
+      background: rgba(255, 255, 255, 0.7);
+      padding: 0 8px;
+      border-radius: 4px;
+    }
+
+    .hero p {
+      font-size: 1.1rem;
+      margin-bottom: 30px;
+      color: #f0f0f0;
+    }
+
+    .hero p strong {
+      color: #fff;
+    }
+
+    /* CTA button */
+    .cta {
+      display: inline-block;
+      background: #fff;
+      color: #c35b00;
+      font-weight: bold;
+      padding: 12px 20px;
+      border-radius: 6px;
+      text-decoration: none;
+      margin-top: 20px;
+      box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+    }
+
+    .cta span {
+      background: #fcd307;
+      color: #000;
+      padding: 8px 12px;
+      border-radius: 4px;
+      margin-left: 8px;
+      font-weight: bold;
+    }
+
+    /* Mobile responsive */
+    @media (max-width: 768px) {
+      .hero h1 {
+        font-size: 2rem;
+      }
+      .hero p {
+        font-size: 1rem;
+      }
+      .hero-content {
+        padding: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <img src="https://via.placeholder.com/120x40.png?text=charity:water" alt="charity:water logo">
+    <button>give</button>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <img src="https://via.placeholder.com/1600x800.png?text=Hero+Image" alt="Hero background image">
+    <div class="hero-content">
+      <h1>100% access to <span>clean water</span>. 0% Excuses.</h1>
+      <p>With charity: water, your commitment becomes action, and action becomes lives transformed— 
+      <strong>honest, real, and lasting.</strong></p>
+      <a href="#" class="cta">be a part of the change <span>donate now</span></a>
+    </div>
+  </section>
+
+</body>
+</html>

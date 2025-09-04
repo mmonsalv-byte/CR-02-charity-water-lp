@@ -1,0 +1,70 @@
+/* This is the CSS file for the Charity Water landing page */
+
+/* Reset some default styles for a cleaner look */
+body, h1, h2, p {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+/* Set a background color for the entire page */
+body {
+    background-color: #f0f8ff; /* Light blue background */
+    font-family: Arial, sans-serif; /* Use a simple font */
+}
+
+/* Style the header */
+header {
+    background-color: #0077cc; /* Dark blue background for header */
+    color: white; /* White text color */
+    padding: 20px; /* Add some padding */
+    text-align: center; /* Center the text */
+}
+
+/* Style the main content area */
+main {
+    padding: 20px; /* Add padding around the main content */
+}
+
+/* Style headings */
+h1 {
+    font-size: 2.5em; /* Large font size for main heading */
+    margin-bottom: 10px; /* Space below the heading */
+}
+
+h2 {
+    font-size: 2em; /* Slightly smaller font size for subheadings */
+    margin-bottom: 15px; /* Space below the subheading */
+}
+
+/* Style paragraphs */
+p {
+    font-size: 1.2em; /* Medium font size for paragraphs */
+    line-height: 1.5; /* Increase line height for readability */
+    margin-bottom: 20px; /* Space below paragraphs */
+}
+
+/* Style buttons */
+.button {
+    background-color: #ffcc00; /* Yellow background for buttons */
+    color: black; /* Black text color */
+    padding: 10px 20px; /* Padding inside the button */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+/* Add hover effect for buttons */
+.button:hover {
+    background-color: #e6b800; /* Darker yellow on hover */
+}
+
+/* Style the footer */
+footer {
+    background-color: #0077cc; /* Dark blue background for footer */
+    color: white; /* White text color */
+    text-align: center; /* Center the text */
+    padding: 10px; /* Add some padding */
+    position: relative; /* Position relative for footer */
+    bottom: 0; /* Stick to the bottom */
+    width: 100%; /* Full width */
+}
